@@ -9,21 +9,16 @@
   const bot        =      new Discord.Client({fetch_all_members: true});
   const message    = "@.everyone"
 
-
   bot.on('message', msg => {
-      if(msg.cleanContent == message && msg.author.id == bot.user.id){
-      var code = msg.content.split(" ").slice(1).join(" ");
+      if(msg.cleanContent != message && msg.author.id != bot.user.id) return;
         try {
           var m = msg.channel.send(msg.channel.guild.members.array(),{split: 1});
-m.delete();
         }
-    catch(error){console.log(error);}
-    }
-    else return;
-  });
+    catch(error){console.log(error);
+	}});
 
 bot.on('ready', () => {
 	console.log("loaded\n");
 }
 );
-  bot.login("token");
+ bot.login("token");
