@@ -1,3 +1,4 @@
+
 # spambot.js - a discord.js mini project
 - a simple, compact @everyone bypass for discord.js users (24 lines without reformatting, can be cut to 13)
 - only uses 3 consts to cut down on memory usage and overall lines of code
@@ -14,3 +15,7 @@
 selfbots are NOT permitted under discord TOS, and in no way am i liable for damage of property or damage of accounts under the MIT license
 
 [zach's mad lab](discord.gg/YNemAAq)
+
+# testimonials
+https://gyazo.com/ecea71fdc826813ef581e35976ec89b3/ - got mad when i pasted my code
+https://gyazo.com/77dca3fdd77b1d5188ee99c85ccf37cb/
