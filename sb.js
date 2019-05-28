@@ -1,6 +1,6 @@
 /*
     Filename: spambot.js
-    Author: Zach "valrym" or @jacob#9926 on discord
+    Author: Zach "valrym" or @ven#5099 on discord
     Date: ??/??/17
     Purpose: send array of members split via newline to ping individuals
 */
